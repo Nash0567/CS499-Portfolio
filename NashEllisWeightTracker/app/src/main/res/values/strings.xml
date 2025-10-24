@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nash Ellis Weight Tracker</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="goal_weight_label">Goal Weight: %1$d lbs</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+</resources>
