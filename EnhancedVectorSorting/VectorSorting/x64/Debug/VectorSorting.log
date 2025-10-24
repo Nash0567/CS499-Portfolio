@@ -1,0 +1,5 @@
+﻿  VectorSorting.cpp
+C:\Users\ellis\source\repos\VectorSorting\VectorSorting.cpp(76,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ellis\source\repos\VectorSorting\VectorSorting.cpp(274,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ellis\source\repos\VectorSorting\VectorSorting.cpp(288,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  VectorSorting.vcxproj -> C:\Users\ellis\source\repos\VectorSorting\x64\Debug\VectorSorting.exe
