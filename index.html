@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nash Ellis CS499 Portfolio</title>
+  <style>
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #052140;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: #063b74;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background: #03162a;
+  }
+  nav button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+  }
+  nav button:hover, nav button.active {
+    background: #084a90;
+  }
+  section {
+    display: none;
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    margin-top: 30px;
+  }
+  section.active {
+    display: block;
+  }
+  a {
+    color: #4fa3ff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 8px;
+  }
+  p {
+    line-height: 1.6;
+    color: #f0f0f0;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>Nash Ellis CS499 Portfolio</h1>
+    <p>Southern New Hampshire University – Computer Science Capstone</p>
+  </header>
+
+  <nav>
+    <button class="tablink active" onclick="openTab(event, 'home')">Home</button>
+    <button class="tablink" onclick="openTab(event, 'cs250')">CS-250</button>
+    <button class="tablink" onclick="openTab(event, 'cs300')">CS-300</button>
+    <button class="tablink" onclick="openTab(event, 'cs360')">CS-360</button>
+  </nav>
+
+  <!-- HOME TAB -->
+  <section id="home" class="active">
+    <h2>Professional Self-Assessment</h2>
+    <p>Over the past two years at Southern New Hampshire University, I have learned a great deal. My time spent in the Computer Science program at SNHU has been invaluable. The past two years have changed me as a person, and certainly as a developer. This portfolio puts all of the knowledge that I have gained on display. By showcasing my abilities to plan, design, develop, and enhance software, while using professional practices, I hope to show just how much I have learned and grown.</p>
+
+    <p>During my time at SNHU I have discovered that my strengths and passion are in backend development. I have loved all of my classes at SNHU, but the ones with a focus on backend development and data management were an absolute blast. My time at SNHU has provided me experience with a multitude of programming languages. In one of my first classes at SNHU, DAD-220, I found my love for database management. That enjoyment was found in several other clases that used NoSQL systems like MongoDB in CS-340, and it was just as enjoyable. SQLite in CS-360 was a blast to use as well. I also enjoyed other classes and languages like IT-140, which used Python, CS-300, which used C++, and many others. I also gained experience with several frontend programming languages. In CS-465, I got to apply both backend and frontend skills when using a MEAN stack. While CS-340 had elements of security creating a user with unique login credentials and limiting their role in the database, and CS-465 used JSON Web Tokens to secure end-points, they didn't focus on security. CS-305 was a course focused completely on security. The course consisted of using SHA-256 encryption and assessing and fixing vulnerabilities in software. SNHU has allowed me to learn a lot and gain real experience by completing projects and assignments, and for that, I'm grateful.</p>
+
+    <p>CS-250 was a great class that focused on the frameworks of software development that companies use, mainly focusing on Agile methodology like SCRUM and sprints. The class taught me the roles of SCRUM, like the Product Owner's role of communicating with stakeholders. The class also emphasized the importance of communication throughout the team. We even were separated into groups one week and each given a role in a SCRUM team, and we had to do our part. The class did also include some creative coding assignments using Java as well, and they were very engaging and insightful. CS-300 was my first experience actually using and measuring data structures and time complexity. It was from the assignments in that class that I learned the importance of efficiency. The class taught me how to write C++ code efficiently, with proper code comments, and industry standard practices. Lastly, the Weight Tracker mobile app from CS-360 was my first experience with mobile development. I did learn a lot, especially on the frontend, but I couldn't quite get everything functional, so I chose it as one of my artifacts to enhance. I chose each of these assignments to enhance due to their importance to me as a developer, as they taught me many fundamental programming languages, skills, and practices.</p>
+
+    <p>The enhancements I made to each project not only improved the quality of each artifact, but also showed my development skills to assess, plan, and deliver effective and efficient solutions. I have learned how to solve problems, convey my technical ideas clearly, and utilize modern development tools and practices such as version control, testing, and documentation.</p>
+
+    <p>Overall, the computer science program has prepared me to contribute effectively as a software developer in a professional environment. I am confident in my ability to collaborate with others, adapt and learn new technologies, and apply software engineering principles to real-world problems.</p>
+
+    <h2>Code Review Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/h3yZHlZV3DU" title="Code Review Video" allowfullscreen></iframe>
+  </section>
+
+<!-- CS250 TAB -->
+<section id="cs250" class="tabcontent">
+  <h2>CS-250: Software Design and Engineering – Slideshow Project</h2>
+  <ul>
+    <li><a href="https://github.com/Nash0567/CS499-Portfolio/tree/main/OldSlideShow" target="_blank">Original Project</a></li>
+    <li><a href="https://github.com/Nash0567/CS499-Portfolio/tree/main/EnhancedSlideShow" target="_blank">Enhanced Project</a></li>
+  </ul>
+    
+    <h3>Briefly describe the artifact. What is it? When was it created?</h3>
+  <p>
+    The artifact I selected is a Java slideshow project that was originally created in the CS-250 class here at SNHU. I was in CS-250 around October 2024. The version of the slideshow from the class was a simple application with a five-slide cap and a basic navigation system. For this milestone, I enhanced the slideshow project by expanding the slide count, improving functionality, simplifying the code structure, improving navigation, and adding testing. These changes were made during September 2025 as part of my ePortfolio preparation.
+  </p>
+
+  <h3>Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development? How was the artifact improved?</h3>
+  <p>
+    I chose this artifact because it was perfect for demonstrating my skills in software design and engineering. The class itself was very centered on documentation and design. I made several improvements. The updated version of the slideshow now contains 10 slides, expanding past the 5-slide cap in the original code. The new slide show is centered around Japanese cities and prefectures worth visiting. Each slide has its own image, description, and background color. Beyond content, the artifact showcases my ability to refactor code for clarity and maintainability. I changed the hardcoded if/else code for arrays to manage slide data instead. Additionally, I restructured the navigation to use index-based cycling. I also added JUnit tests to test and confirm correct navigation and wrap-around behavior. Together, these changes highlight my ability to write clean, organized, and testable code.
+  </p>
+
+  <h3>Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?</h3>
+  <p>
+    Originally, I was going to enhance the basic list view controls assignment from CS-250, but the slideshow was a much better fit for the enhancement. With this enhancement, I believe that I have met the course outcome and demonstrated my abilities as a competent programmer. In this assignment, I used professional techniques and practices to implement software solutions. Specifically, I improved the code’s design and structure, added test coverage, and introduced practices that make the program easier to maintain and scale. Additionally, I added documentation in the form of code comments and a backlog. I also provided a UML class diagram, that I created for the enhanced slideshow. In Module One, I planned to align the artifact from CS-250 with the software design and engineering outcome, and this enhancement directly supports that plan. Other than using the slideshow assignment, nothing else has changed. My outcome-coverage plans are the same.
+  </p>
+
+  <h3>Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?</h3>
+  <p>
+    Enhancing this artifact was invaluable. I was given the opportunity to put my skills on display and even learn a few new things. One of my biggest takeaways was seeing how much cleaner the code was and how much easier it was to navigate and maintain. I changed hardcoded logic in favor of using arrays and loops, which created a clean and easy-to-read program. I also put my testing skills to the test. I learned how to create and use JUnit tests here at SNHU, so getting to use them again felt great. I am now even more confident in my abilities to use JUnit testing to ensure the functionality of my program’s logic. The main challenge I faced was ensuring that navigation wrapped around correctly when reaching the first or last slide. Rewriting all of the slide data using arrays and loops was more tedious, but still a challenge. Addressing these problems allowed me to focus on the rest of the project. Overall, this enhancement has shown me how much of a difference small design changes can have, and how it can lead to large improvements in usability and maintainability.
+  </p>
+</section>
+
+<!-- CS300 TAB -->
+<section id="cs300" class="tabcontent">
+  <h2>CS-300: Algorithms and Data Structures – Vector Sorting Project</h2>
+  <ul>
+    <li><a href="https://github.com/Nash0567/CS499-Portfolio/tree/main/VectorSorting" target="_blank">Original Project</a></li>
+    <li><a href="https://github.com/Nash0567/CS499-Portfolio/tree/main/EnhancedVectorSorting" target="_blank">Enhanced Project</a></li>
+  </ul>
+  
+  <h3>Briefly describe the artifact. What is it? When was it created?</h3>
+  <p>
+    The artifact I selected for the algorithms and data structures enhancement is my Vector Sorting Assignment from CS-300: DSA Analysis and Design, which I completed around March of 2025. This C++ program allows the user to interact with the application through number key inputs. Pressing 1 imports and loads bid data from a CSV file, 2 displays all loaded bids, 3 sorts the bids using selection sort (from the original code), 4 sorts the bids using quick sort (also from the original code), 5 sorts the bids using merge sort, and 6 sorts the bids using the C++ Standard Library’s std::sort function. Finally, pressing the 9 key exits the program.
+  </p>
+
+  <h3>Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development? How was the artifact improved?</h3>
+  <p>
+    I chose this artifact because I enjoyed it, as well as found it particularly important to algorithms and data structures. This project and class were designed to explore and analyze different sorting algorithms and data structures. During this class, I concluded that vectors and dynamic arrays are some of the best data structures available. I chose to improve the vector sorting assignment, since it is so useful in real-world scenarios with much larger projects and costs.
+  </p>
+  <p>
+    The sorting algorithms used were required for the assignment, so I decided to use sorting methods that are safer, more efficient, and more accurate. I used the sorting methods that professionals use, which is C++’s standard sort (std::sort), and I also added merge sort to the program as well. Additionally, I made improvements to the input validation, since there was no input validation at all previously. I also added some error handling, as well as changed the clock() function to the chrono library for more precise measurements of time. I hope the improvements I have made to the program demonstrate my abilities as a developer, as well as with algorithms and data structures.
+  </p>
+
+  <h3>Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?</h3>
+  <p>
+    I met the courses outcome to “design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices”, which I chose in Module One. The enhancements that I made are closely aligned with this course outcome, and I incorporated this course outcome into my decision making. I do not have any updates to my outcome-coverage plan.
+  </p>
+
+  <h3>Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?</h3>
+  <p>
+    Enhancing this artifact was a fun challenge. I enjoy not following strict guidelines, allowing me to interpret things differently and implement different solutions that I see fit. Working on this enhancement, I learned the importance of time complexity. I made it my goal to make improvements to the time complexity, with a focus on larger datasets, which have real-world applications.
+  </p>
+  <p>
+    The biggest problem I faced was incorporating the merge sort and std::sort, it was kind of challenging, having never done it before, but I persevered with the help of resources like Stack Overflow, YouTube, and Google. Though, it did take some trial and many errors to succeed. Overall, I learned a lot through the enhancement of this assignment, and I hope to apply what I have learned to future projects.
+  </p>
+</section>
+
+<!-- CS360 TAB -->
+<section id="cs360" class="tabcontent">
+  <h2>CS-360: Databases – Weight Tracker Mobile App</h2>
+  <ul>
+    <li><a href="https://github.com/Nash0567/CS499-Portfolio/tree/main/OldWeightTrackerApp" target="_blank">Original Project</a></li>
+    <li><a href="https://github.com/Nash0567/CS499-Portfolio/tree/main/NashEllisWeightTracker" target="_blank">Enhanced Project</a></li>
+  </ul>
+
+  <h3>Briefly describe the artifact. What is it? When was it created?</h3>
+  <p>
+    The artifact that I chose to enhance with a focus on its database is my project from CS-360. The project is a mobile app that wasn’t finished, and it lacked functionality in almost all categories. The app is intended to allow users the opportunity to create an account and log in, and once signed in, they can set a goal weight they want to reach and track their weight by making entries. I created this mobile app in August of 2025, and I selected this artifact because I was disappointed with the outcome of the app. I also thought it was a great assignment for the database portion of this capstone project, it uses SQL, which I have loved using since my DAD-220 class here at SNHU, and it is perfect to demonstrate my abilities with both front-end and back-end features. I am happy to say that after making several enhancements, the mobile app is now fully functional. The improvements I made had security as a priority, with input validation. Specifically, adding strict limitations on inputs for usernames and passwords, they are now required to be 4-20 characters in length. This will increase safety for the app by limiting the length of usernames and passwords stored in the database. I also addressed the issues with the database not storing any data and users being able to login with any username and password regardless of whether it was a created account or not, things that were supposed to be functional in the app to begin with. I also added CRUD methods to the database, and the database functions as expected. The SMS screen now pops up for the user the first time they open the app and if accepted, notifies them when they reach their goal weight. All the enhancements made from the original demonstrate my abilities with databases and as a developer.
+  </p>
+
+  <h3>Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?</h3>
+  <p>
+    I successfully met the course outcomes that I selected in module one. My goal was to demonstrate my ability to use industry-standard techniques, skills, and tools to complete the enhancement. I additionally chose to focus on security and consider potential exploits. I successfully made enhancements using my skills and industry-standard techniques to implement an improved and secure application. Adding input validation and setting a limit of 4-20 characters is an improvement to security, and adding CRUD to the database is industry-standard, and something that I have done to NoSQL databases in the past, but this was my first time implementing it into a SQL database for the mobile app. I followed the plan completely and have no updates to my outcome-coverage plan.
+  </p>
+
+  <h3>Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?</h3>
+  <p>
+    Enhancing this artifact was definitely a fun challenge, and I desperately wanted to succeed this time. I love all things databases, and SQL databases specifically, so I really enjoyed this assignment, it was great practice. When I first attempted this assignment, things didn't go as planned, and this time with the extra time I had, I was able to finally complete it. While completing the enhancement, I learned the importance of input validation and extensive testing. I spent a lot of time just debugging and testing each feature to ensure that it functioned as intended. After fixing my previous mistakes and making the assignment functional, the hardest and most enjoyable part of this enhancement was the database. I thoroughly enjoyed watching the data stored and edited in real-time. I enjoyed the challenge of adding/fixing the database to the app and then adding CRUD functionality. Overall, this enhancement was a fun challenge, and I got my second chance to fix it. I learned a lot about how changing database logic can affect the entire app (this time in a positive way). I also learned how to think and consider security and validation risks. It was really fun, and I learned a lot that I hope to apply to future projects, professional or not.
+  </p>
+</section>
+
+  <script>
+    function openTab(evt, tabName) {
+      const sections = document.querySelectorAll('section');
+      sections.forEach(sec => sec.classList.remove('active'));
+      document.getElementById(tabName).classList.add('active');
+
+      const buttons = document.querySelectorAll('.tablink');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      evt.currentTarget.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
