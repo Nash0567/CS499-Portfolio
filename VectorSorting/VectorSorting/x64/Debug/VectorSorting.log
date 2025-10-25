@@ -1,0 +1,12 @@
+﻿  CSVparser.cpp
+C:\Users\ellis\Downloads\CS 499\CS-300\CS-300\VectorSorting\VectorSorting\CSVparser.cpp(116,27): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ellis\Downloads\CS 499\CS-300\CS-300\VectorSorting\VectorSorting\CSVparser.cpp(121,26): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ellis\Downloads\CS 499\CS-300\CS-300\VectorSorting\VectorSorting\CSVparser.cpp(203,24): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  VectorSorting.cpp
+C:\Users\ellis\Downloads\CS 499\CS-300\CS-300\VectorSorting\VectorSorting\VectorSorting.cpp(94,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ellis\Downloads\CS 499\CS-300\CS-300\VectorSorting\VectorSorting\VectorSorting.cpp(216,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ellis\Downloads\CS 499\CS-300\CS-300\VectorSorting\VectorSorting\VectorSorting.cpp(221,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ellis\Downloads\CS 499\CS-300\CS-300\VectorSorting\VectorSorting\VectorSorting.cpp(317,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  LINK : C:\Users\ellis\Downloads\CS 499\CS-300\CS-300\VectorSorting\VectorSorting\x64\Debug\VectorSorting.exe not found or not built by the last incremental link; performing full link
+  VectorSorting.vcxproj -> C:\Users\ellis\Downloads\CS 499\CS-300\CS-300\VectorSorting\VectorSorting\x64\Debug\VectorSorting.exe
